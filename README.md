@@ -6,7 +6,6 @@ A reproducible, beginner-friendly repo for exploring movie metadata and doing si
 
 ## Contents
 - `src/` — Python scripts for cleaning, exploring and visualizing data
-- `notebooks/analysis.ipynb` — Jupyter notebook showing EDA and insights
 - `data/` — place your dataset here (do not commit large datasets)
 - `outputs/` — saved charts and summary CSVs
 
@@ -25,12 +24,11 @@ pip install -r requirements.txt
 python src/data_processing.py --input data/movies_metadata.csv --output outputs/summary.csv
 python src/exploratory_analysis.py --input outputs/summary.csv --outdir outputs/figures
 ```
-4. Open `notebooks/analysis.ipynb` for interactive charts and writeup.
 
 
 ## What to upload to GitHub
 - `src/` code and `notebooks/` notebook(s)
-- `README.md`, `requirements.txt`, `.gitignore`, `LICENSE`
+- `README.md`, `requirements.txt`
 - a small sample of `data/` (e.g. `movies_sample.csv`) or a download script (recommended)
 - `outputs/` can be included for reproducibility but keep it small
 
