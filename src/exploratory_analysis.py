@@ -58,7 +58,6 @@ def main(input_path, outdir):
     os.makedirs(outdir, exist_ok=True)
     df = pd.read_csv(input_path)
     plot_rating_distribution(df, outdir)
-    top_genres(df, outdir)
     runtime_vs_rating(df, outdir)
     release_trend(df, outdir)
     print('Saved charts to', outdir)
