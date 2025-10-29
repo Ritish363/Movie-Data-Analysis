@@ -29,9 +29,6 @@ python src/exploratory_analysis.py --input outputs/summary.csv --outdir outputs/
 ## What to upload to GitHub
 - `src/` code and `notebooks/` notebook(s)
 - `README.md`, `requirements.txt`
-- a small sample of `data/` (e.g. `movies_sample.csv`) or a download script (recommended)
 - `outputs/` can be included for reproducibility but keep it small
 
 
-## License
-Choose a license (e.g. MIT). Put the text in `LICENSE`.
