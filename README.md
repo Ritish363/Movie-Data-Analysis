@@ -24,11 +24,3 @@ pip install -r requirements.txt
 python src/data_processing.py --input data/movies_metadata.csv --output outputs/summary.csv
 python src/exploratory_analysis.py --input outputs/summary.csv --outdir outputs/figures
 ```
-
-
-## What to upload to GitHub
-- `src/` code and `notebooks/` notebook(s)
-- `README.md`, `requirements.txt`
-- `outputs/` can be included for reproducibility but keep it small
-
-
